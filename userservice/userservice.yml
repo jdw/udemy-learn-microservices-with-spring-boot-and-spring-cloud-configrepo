@@ -9,15 +9,15 @@ spring:
   database:
     driverClassName: "com.mysql.jdbc.Driver"
   datasource:
-    url: "jdbc:mysql://localhost:32783/itemsharingdatabase"
+    url: "jdbc:mysql://localhost:32771/itemsharingdatabase"
     username: "root"
     password: ""
     testWhileIdle: true
     validationQuery: "SELECT 1"
-       
+
 security:
   basic:
     enable: false
-    
+
 server:
   port: 8081
